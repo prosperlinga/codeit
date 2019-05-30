@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title> User Login</title>
+	<link  href="css/style.css" rel="stylesheet" type="text/css">
+<link  href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!--Login Form-->
+<h2>LOGIN FORM</h2>
+<div class="well">
+	<form action="loginmpya.php" method="POST" >
+	<div class="input-group">
+		<input type="text" name="username" placeholder="Enter username" class="form-control"><br>
+		<input type="password" name="password" placeholder="Enter password" class="form-control">
+		<button type="submit" name="submit" class="btn btn-default">Login</button>
+			
+	</div>
+	</form>
+</div>
+</body>
+</html>
